@@ -4,13 +4,25 @@ public class XZ2017 {
     static java.lang.String path="";
     static boolean isCan=false;
     static int maxenergy=-10;
+    static int count=0;
+    static int k;
     public static void main(String[] args)
     {
       Scanner in=new Scanner(System.in);
       while (in.hasNext())
       {
+       String A=in.nextLine();
+       String B=in.nextLine();
+       StringBuilder sb=new StringBuilder(A);
+       int i=0,count=0;
+       String temp;
+       for(i=0;i<=A.length();i++)
+       {
+           temp=sb.substring(0,i).toString()+B.toString()+sb.substring(i,sb.length()).toString();
+           count+=HuiWen(temp);
 
-
+       }
+          System.out.println(count);
       }
 
     }
@@ -252,6 +264,61 @@ public class XZ2017 {
         }
     }
 
+    /* 合唱团 动态规划 选择变量 n k 画二维表格 得出状态转移方程 因为有正负 所有需要维护2个数组 */
+    public static void HeChangtuan()
+    {
+        Scanner in=new Scanner(System.in);
+        while (in.hasNext())
+        {
+            int n=in.nextInt();
+            long[][]  dpmax=new long[n+1][n+1];
+            long[][]  dpmin=new long[n+1][n+1];
+            int[] values=new int[n];
+            int i,j,k,d,temp;
+            long maxtemp=1,mintemp;
+            for(i=0;i<n;i++)
+                values[i]=in.nextInt();
+            k=in.nextInt();
+            d=in.nextInt();
+            for(i=1;i<=n;i++)  //初始化
+            {
+                dpmax[i][1]=values[i-1];
+                dpmin[i][1]=values[i-1];
+            }
+            for(j=0;j<=n;j++)
+                dpmin[0][j]=dpmax[0][j]=1;
+            for(i=2;i<=n;i++)
+                for(j=2;j<=i;j++)
+                {
+                    //因为有正负 更新最大最小数组
+                    mintemp= maxtemp=values[i-2];
+                    for(temp=i-2;temp>=i-d-1;temp--)
+                    {
+                        if(temp>=0)
+                        {
+                            maxtemp=Math.max(maxtemp,dpmax[temp+1][j-1]);
+                            mintemp=Math.min(mintemp,dpmin[temp+1][j-1]);
+                        }
+                    }
+                    if(values[i-1]>0)
+                    {
+                        dpmax[i][j]=maxtemp*values[i-1];
+                        dpmin[i][j]=mintemp*values[i-1];
+                    }
+                    else
+                    {
+                        dpmax[i][j]=mintemp*values[i-1];
+                        dpmin[i][j]=maxtemp*values[i-1];
+                    }
+                }
+
+            maxtemp=1;
+            for(i=1;i<=n;i++) {
+                maxtemp=Math.max(dpmax[i][k],maxtemp);
+            }
+            System.out.println(maxtemp);
+        }
+    }
     /* 酒店价格 区间 利用哈希 数组 依次遍历 */
     public static void hotelprice()
     {
@@ -289,6 +356,67 @@ public class XZ2017 {
         sb.append(max+", "+hasharr[max]+"]");
         System.out.println(sb.toString());
 
+    }
+
+    /* 分田地 动态规划*/
+
+    /* 数列还原 全排列 试试 */
+    public static void AllPermute(int[] src,int start,int end,int[] srcarrs)
+    {
+        if(start==end)
+        {
+           count+=IsOk(src,srcarrs);
+            return;
+        }
+        int i;
+        for(i=start;i<end;i++)
+        {
+            swap(src,start,i);
+            AllPermute(src,start+1,end,srcarrs);
+            swap(src,i,start);
+        }
+    }
+
+    public static void swap(int[] src,int i,int j)
+    {
+        int temp=src[i];
+        src[i]=src[j];
+        src[j]=temp;
+    }
+
+    public static int IsOk(int[] lose,int[] arr)
+    {
+        int result=0,j=0,s=0,xudui=0;
+        int[] temp=new int[arr.length];
+        for(int i=0;i<arr.length;i++)
+        {
+            if(arr[i]!=0)
+                temp[s]=arr[i];
+            else
+                temp[s]=lose[j++];
+            s++;
+        }
+        int i;
+        for(i=0;i<arr.length;i++)
+            for(j=i+1;j<arr.length;j++)
+                if(temp[j]>temp[i])
+                    xudui++;
+        if(xudui==k)
+            result=1;
+        return result;
+    }
+
+    /* 判断是否是回文串 substring利用*/
+    public static int HuiWen(String src)
+    {
+        int result=1;
+        int i;
+        for(i=0;i<=src.length()/2;i++)
+        {
+            if(src.charAt(i)!=src.charAt(src.length()-1-i))
+                return 0;
+        }
+        return result;
     }
     static class Node
     {
