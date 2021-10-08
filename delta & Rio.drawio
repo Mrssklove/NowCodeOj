@@ -1,1 +1,114 @@
-<mxfile host="app.diagrams.net" modified="2021-10-08T02:58:58.307Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" version="15.3.5" etag="gXSPu6QSAtZs4rAtCGIT" type="github"><diagram id="_jad44wzOjkIv6haLjCW">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-08T06:16:41.442Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="ESogCDPmQK1JEqOiQ06g" version="15.3.5" type="github">
+  <diagram id="_jad44wzOjkIv6haLjCW" name="Page-1">
+    <mxGraphModel dx="4559" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-1" value="createLbgrRunnerEntry(void *outData, uint64_t reqId)" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="170" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-7" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="r0PJ-s2M3Lo0YWtufp6R-3" target="r0PJ-s2M3Lo0YWtufp6R-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-3" value="CreateLbgrAndInit(dmeCtrl, lbgrCtrl)&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="230" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-4" value="" style="endArrow=classic;html=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="r0PJ-s2M3Lo0YWtufp6R-1" target="r0PJ-s2M3Lo0YWtufp6R-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="330" as="sourcePoint" />
+            <mxPoint x="350" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-10" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="r0PJ-s2M3Lo0YWtufp6R-5" target="r0PJ-s2M3Lo0YWtufp6R-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-5" value="InitLbgrParaForFs" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="280" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-8" value="InitBgrJobPrivData" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="320" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-9" value="&lt;p&gt;&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;根据outData 初始化bgrJobBase重删标记 jobInfo-&amp;gt;jobConf/provData.fsconf.iosDedupe = taskPara-&amp;gt;isDedupe&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="350" width="630" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-18" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="r0PJ-s2M3Lo0YWtufp6R-11" target="r0PJ-s2M3Lo0YWtufp6R-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-11" value="runnerCreateLbgrFun(lbgrCtrl)" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="400" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-12" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;lbgrCtrl = (LBGR_CTRL_PARAM_S*) outData&lt;/font&gt;&lt;/b&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=#FF0000;rounded=0;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="195" y="200" width="270" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-19" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="r0PJ-s2M3Lo0YWtufp6R-14" target="r0PJ-s2M3Lo0YWtufp6R-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-20" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;elbow=vertical;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="r0PJ-s2M3Lo0YWtufp6R-14" target="r0PJ-s2M3Lo0YWtufp6R-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="80" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-14" value="FL_splitDmeSyncTask(bgrjobBase, taskInfo" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="450" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-16" value="initializeCopyJob(bgrJobBase)" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="500" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-17" value="根据bgrJobBase初始化Job重删标记位 bgrJob-&amp;gt;isDedupe = bgrJobBase-&amp;gt;jobConf.privData.fsConf.isDedupe" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="-115" y="530" width="590" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-21" value="FL_enterDmeSyncTask(bgrjobBase, taskInfo" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="580" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-22" value="fillBgrVsCreateParam" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="620" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-23" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;param-&amp;gt;cbs.genVnodeTask = FL_genVnodeTask&lt;/font&gt;&lt;/b&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="650" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-24" value="bgrVsCreate" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="680" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-25" value="bgrVsScheduler" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="720" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-26" value="bgrVsSchedulerVnode" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="760" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-27" value="FL_genVnodeTask" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="800" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-28" value="FL_lbgrJobParamInit(jobEntry-&amp;gt;jobInfo" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="840" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-29" value="&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;初始化lbgr job重删标记 job-&amp;gt;isDedupe = bgrJob-&amp;gt;IsDedupe&lt;/font&gt;&lt;/b&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="65" y="870" width="350" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-30" value="BGR_CreateJob(jobEntry-&amp;gt;jobInfo)" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="950" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-31" value="BGR_CreateJobCtx(jobEntry-&amp;gt;jobInfo, jobDone" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="990" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-32" value="BGR_NewJobCtx(jobEntry-&amp;gt;jobInfo, jobDone" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1030" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-33" value="BGR_CreateDeltaIterator(jobEntry-&amp;gt;jobInfo, jobCtx)" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1090" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-34" value="create_fs_delta_iter_iterator(jobCtx)" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1090" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-35" value="&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;jobCtx-&amp;gt;jobParam.isDedupe = job-&amp;gt;isDedupe&lt;/font&gt;&lt;/b&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="125" y="1060" width="270" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-36" value="&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;if (jobCtx-&amp;gt;jobParam.isDedupe)&lt;/font&gt;&lt;/b&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="495" y="1120" width="190" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
