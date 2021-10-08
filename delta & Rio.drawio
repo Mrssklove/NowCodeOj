@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-08T06:16:41.442Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="ESogCDPmQK1JEqOiQ06g" version="15.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-08T07:58:04.005Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="VKNr1s466lesVS-orhHb" version="15.3.5" type="github">
   <diagram id="_jad44wzOjkIv6haLjCW" name="Page-1">
-    <mxGraphModel dx="4559" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="4722" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -23,10 +23,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="r0PJ-s2M3Lo0YWtufp6R-5" value="InitLbgrParaForFs" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
-          <mxGeometry x="120" y="280" width="300" height="20" as="geometry" />
+          <mxGeometry x="180" y="280" width="180" height="20" as="geometry" />
         </mxCell>
         <mxCell id="r0PJ-s2M3Lo0YWtufp6R-8" value="InitBgrJobPrivData" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
-          <mxGeometry x="120" y="320" width="300" height="20" as="geometry" />
+          <mxGeometry x="180" y="320" width="180" height="20" as="geometry" />
         </mxCell>
         <mxCell id="r0PJ-s2M3Lo0YWtufp6R-9" value="&lt;p&gt;&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;根据outData 初始化bgrJobBase重删标记 jobInfo-&amp;gt;jobConf/provData.fsconf.iosDedupe = taskPara-&amp;gt;isDedupe&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
           <mxGeometry x="-30" y="350" width="630" height="40" as="geometry" />
@@ -43,19 +43,11 @@
         <mxCell id="r0PJ-s2M3Lo0YWtufp6R-19" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="r0PJ-s2M3Lo0YWtufp6R-14" target="r0PJ-s2M3Lo0YWtufp6R-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-20" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;elbow=vertical;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="r0PJ-s2M3Lo0YWtufp6R-14" target="r0PJ-s2M3Lo0YWtufp6R-16">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="50" y="480" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="80" y="480" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="r0PJ-s2M3Lo0YWtufp6R-14" value="FL_splitDmeSyncTask(bgrjobBase, taskInfo" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
           <mxGeometry x="120" y="450" width="300" height="20" as="geometry" />
         </mxCell>
         <mxCell id="r0PJ-s2M3Lo0YWtufp6R-16" value="initializeCopyJob(bgrJobBase)" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
-          <mxGeometry x="120" y="500" width="300" height="20" as="geometry" />
+          <mxGeometry x="165" y="500" width="210" height="20" as="geometry" />
         </mxCell>
         <mxCell id="r0PJ-s2M3Lo0YWtufp6R-17" value="根据bgrJobBase初始化Job重删标记位 bgrJob-&amp;gt;isDedupe = bgrJobBase-&amp;gt;jobConf.privData.fsConf.isDedupe" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
           <mxGeometry x="-115" y="530" width="590" height="20" as="geometry" />
@@ -64,19 +56,19 @@
           <mxGeometry x="120" y="580" width="300" height="20" as="geometry" />
         </mxCell>
         <mxCell id="r0PJ-s2M3Lo0YWtufp6R-22" value="fillBgrVsCreateParam" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
-          <mxGeometry x="120" y="620" width="300" height="20" as="geometry" />
+          <mxGeometry x="150" y="620" width="240" height="20" as="geometry" />
         </mxCell>
         <mxCell id="r0PJ-s2M3Lo0YWtufp6R-23" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;param-&amp;gt;cbs.genVnodeTask = FL_genVnodeTask&lt;/font&gt;&lt;/b&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
           <mxGeometry x="120" y="650" width="290" height="20" as="geometry" />
         </mxCell>
         <mxCell id="r0PJ-s2M3Lo0YWtufp6R-24" value="bgrVsCreate" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
-          <mxGeometry x="120" y="680" width="300" height="20" as="geometry" />
+          <mxGeometry x="150" y="680" width="240" height="20" as="geometry" />
         </mxCell>
         <mxCell id="r0PJ-s2M3Lo0YWtufp6R-25" value="bgrVsScheduler" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
-          <mxGeometry x="120" y="720" width="300" height="20" as="geometry" />
+          <mxGeometry x="150" y="720" width="240" height="20" as="geometry" />
         </mxCell>
         <mxCell id="r0PJ-s2M3Lo0YWtufp6R-26" value="bgrVsSchedulerVnode" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
-          <mxGeometry x="120" y="760" width="300" height="20" as="geometry" />
+          <mxGeometry x="150" y="760" width="240" height="20" as="geometry" />
         </mxCell>
         <mxCell id="r0PJ-s2M3Lo0YWtufp6R-27" value="FL_genVnodeTask" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
           <mxGeometry x="120" y="800" width="300" height="20" as="geometry" />
@@ -94,19 +86,270 @@
           <mxGeometry x="120" y="990" width="300" height="20" as="geometry" />
         </mxCell>
         <mxCell id="r0PJ-s2M3Lo0YWtufp6R-32" value="BGR_NewJobCtx(jobEntry-&amp;gt;jobInfo, jobDone" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
-          <mxGeometry x="120" y="1030" width="300" height="20" as="geometry" />
+          <mxGeometry x="145" y="1030" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r0PJ-s2M3Lo0YWtufp6R-33" value="BGR_CreateDeltaIterator(jobEntry-&amp;gt;jobInfo, jobCtx)" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
-          <mxGeometry x="120" y="1090" width="300" height="20" as="geometry" />
+          <mxGeometry x="145" y="1120" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r0PJ-s2M3Lo0YWtufp6R-34" value="create_fs_delta_iter_iterator(jobCtx)" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
           <mxGeometry x="480" y="1090" width="300" height="20" as="geometry" />
         </mxCell>
         <mxCell id="r0PJ-s2M3Lo0YWtufp6R-35" value="&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;jobCtx-&amp;gt;jobParam.isDedupe = job-&amp;gt;isDedupe&lt;/font&gt;&lt;/b&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
-          <mxGeometry x="125" y="1060" width="270" height="20" as="geometry" />
+          <mxGeometry x="130" y="1080" width="270" height="20" as="geometry" />
         </mxCell>
         <mxCell id="r0PJ-s2M3Lo0YWtufp6R-36" value="&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;if (jobCtx-&amp;gt;jobParam.isDedupe)&lt;/font&gt;&lt;/b&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
-          <mxGeometry x="495" y="1120" width="190" height="20" as="geometry" />
+          <mxGeometry x="520" y="1120" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-37" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="960" width="210" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-40" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="410" width="210" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-41" value="" style="endArrow=none;html=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=0;exitY=0.267;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="r0PJ-s2M3Lo0YWtufp6R-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-90" y="470" as="sourcePoint" />
+            <mxPoint x="120" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="460" />
+              <mxPoint x="110" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-42" value="BGR_SubmitJob(jobCtx)" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1260" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-45" value="&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;BGR_WsServiceStart(jobCtx)&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1300" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-46" value="BGR_WsStartConsumer(jobCtx)" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1350" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-47" value="BGR_WsStartProducer(jobCtx)" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1400" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-48" value="BGR_WsStartProducer(jobCtx)" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="910" y="160" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-49" value="BGR_WsProducerTask(jobCtx)" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="910" y="210" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-50" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;BGR_GetDelta(jobCtx)&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="910" y="260" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-51" value="BGR_WsDeltaRefactoringAndPublish(jobCtx)" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="910" y="340" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-57" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="r0PJ-s2M3Lo0YWtufp6R-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="1252" as="targetPoint" />
+            <mxPoint x="880" y="310" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="820" y="1130" />
+              <mxPoint x="800" y="1140" />
+              <mxPoint x="870" y="1120" />
+              <mxPoint x="820" y="1050" />
+              <mxPoint x="800" y="970" />
+              <mxPoint x="820" y="840" />
+              <mxPoint x="870" y="430" />
+              <mxPoint x="860" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-52" value="delta_iterator_next(jobCtx-&amp;gt;iterator)" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="300" width="270" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-53" value="重删迭代器:&lt;br&gt;{&lt;br&gt;dedupe_fs_delta_iterator_next,&lt;br&gt;fs_delta_iterator_done,&lt;br&gt;FsQueryDeltaProgress,&lt;br&gt;destory_fs_delta_iterator&lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1150" width="300" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-58" value="" style="endArrow=none;html=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="r0PJ-s2M3Lo0YWtufp6R-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="880" y="310" as="sourcePoint" />
+            <mxPoint x="1100" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-60" value="dedupe_fs_delta_iterator_next" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="1410" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-61" value="" style="endArrow=none;html=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.473;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="r0PJ-s2M3Lo0YWtufp6R-60" target="r0PJ-s2M3Lo0YWtufp6R-53">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="1390" as="sourcePoint" />
+            <mxPoint x="340" y="1340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-62" value="create_fs_dedupe_index_delta_iterator" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1450" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-63" value="SetDedupeIndexDeltaOptionFlag" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1490" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-64" value="&lt;p style=&quot;margin: 0in ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt&quot;&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;LVOS_set_bit(FS_DCL_ITER_FLAG_BIT_VDP_USER_VIEW_SLICE_DELTA,&amp;nbsp;&amp;amp;(deltaParam-&amp;gt;flag));&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1520" width="650" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-65" value="GetMextDedupeFsDelta" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="1540" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-66" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;BGR_WsDeltaPublish&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="910" y="380" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-68" value="BGR_WsDeltaPublishBySpeed" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="910" y="420" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-70" value="1,重删而且速度小于4MB/S，则不拆分&lt;br&gt;2.重删而且速度大于4MB/S，按4MB/S拆分" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="880" y="485" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-72" value="submit_executable_task" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="910" y="560" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-73" value="BGR_WsStartConsumer(jobCtx)" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="110" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-74" value="&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;BGR_WsServiceCreate&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1180" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-78" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;edgeStyle=elbowEdgeStyle;" edge="1" parent="1" source="r0PJ-s2M3Lo0YWtufp6R-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="1030" />
+              <mxPoint x="460" y="750" />
+              <mxPoint x="460" y="820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-75" value="BGR_WsTaskExecutor" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1220" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-79" value="" style="endArrow=none;html=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="120" as="sourcePoint" />
+            <mxPoint x="1490" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-80" value="BGRWsTaskExecutorRepKeyStart(jobCtx)" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="160" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-81" value="BGR_IOProc(bgrTask)" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="210" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-82" value="BGR_AllocRio" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="260" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-83" value="&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;getRioOpcode&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="1545" y="300" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-84" value="startRio(rio)" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="340" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-86" value="&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;findRioOpCodeEntry,&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;span style=&quot;font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; color: rgb(86 , 156 , 214)&quot;&gt;g_rioOpStgArray[]定义&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="395" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-87" value="startRioHandler(handler, rio)" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="460" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-88" value="g_rioOpsArray数组里，对应enter与exit函数" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="495" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-89" value="主端调用entryBgrCopyDedupe" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="550" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-91" value="copyFsDedupe" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="600" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-92" value="copyFsDedupeDataAgent" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="650" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-93" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;调用外部接口copyFsDedupData&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="700" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-94" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;回调GetRemoteFsFpiDataFunc&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="750" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-97" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="r0PJ-s2M3Lo0YWtufp6R-95" target="r0PJ-s2M3Lo0YWtufp6R-98">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1950" y="835" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-95" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;writeRemote&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="1495" y="820" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-96" value="&lt;font color=&quot;#ff0000&quot;&gt;opcode转换，生产新的rio&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="790" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-108" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="r0PJ-s2M3Lo0YWtufp6R-98" target="r0PJ-s2M3Lo0YWtufp6R-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-98" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;从端查指纹(&lt;/font&gt;&lt;/b&gt;entryFsDedupeGetFpiLocal)" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="1950" y="820" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-99" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;回调WriteRemoteFsDataFunc&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="900" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-100" value="&lt;font color=&quot;#ff0000&quot;&gt;opcode转换，生产新的rio&lt;br&gt;opcode有两种，1是重删写，2是非重删写&lt;br&gt;&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="1515" y="935" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-104" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="r0PJ-s2M3Lo0YWtufp6R-101" target="r0PJ-s2M3Lo0YWtufp6R-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-105" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="r0PJ-s2M3Lo0YWtufp6R-101" target="r0PJ-s2M3Lo0YWtufp6R-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-101" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;writeRemote&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="1485" y="1020" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-113" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="r0PJ-s2M3Lo0YWtufp6R-102" target="r0PJ-s2M3Lo0YWtufp6R-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-102" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;从端写指纹数据（&lt;/font&gt;&lt;/b&gt;&lt;span style=&quot;color: rgb(151 , 151 , 151) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt&quot;&gt;entryFsDedupeWriteLocal&lt;/span&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;）&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="1930" y="980" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-119" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="r0PJ-s2M3Lo0YWtufp6R-103" target="r0PJ-s2M3Lo0YWtufp6R-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-103" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;从端写数据(&lt;/font&gt;&lt;/b&gt;&lt;span style=&quot;color: rgb(151 , 151 , 151) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt&quot;&gt;&amp;nbsp;enterWriteFsLocal)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="1930" y="1070" width="310" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-109" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="r0PJ-s2M3Lo0YWtufp6R-106" target="r0PJ-s2M3Lo0YWtufp6R-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-106" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;getFsFpiIoAgent&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="2330" y="820" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-107" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;调用外部接口getFsFpiData&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="2660" y="830" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-114" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="r0PJ-s2M3Lo0YWtufp6R-110" target="r0PJ-s2M3Lo0YWtufp6R-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-110" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;formatDedupeSgl2KvItem&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="2330" y="980" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-111" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;调用外部接口writeFsIo&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="3020" y="980" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-115" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="r0PJ-s2M3Lo0YWtufp6R-112" target="r0PJ-s2M3Lo0YWtufp6R-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-112" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;writeFsIoAgent&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="2660" y="980" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-120" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="r0PJ-s2M3Lo0YWtufp6R-116" target="r0PJ-s2M3Lo0YWtufp6R-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-116" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;formatSgl2KvItem&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="2330" y="1070" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-121" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="r0PJ-s2M3Lo0YWtufp6R-117" target="r0PJ-s2M3Lo0YWtufp6R-118">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-117" value="&lt;b style=&quot;color: rgb(255 , 0 , 0)&quot;&gt;writeFsIoAgent&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="2670" y="1070" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-118" value="&lt;b style=&quot;color: rgb(255 , 0 , 0)&quot;&gt;调用外部接口writeFsIo&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="3020" y="1070" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0PJ-s2M3Lo0YWtufp6R-122" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;check responseSgl&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="1495" y="850" width="300" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
